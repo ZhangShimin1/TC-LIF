@@ -54,8 +54,8 @@ python SHD-SSC/main.py --neuron tclif --task SHD --beta1 0. --beta2 0. --thresho
 ```
 ### SSC
 ```
-# recurrent: 700-128-128-135 paras:?
+# recurrent: 700-128-128-135 paras: 110.8K
 python SHD-SSC/main.py --neuron tclif --task SSC --beta1 0. --beta2 0. --threshold 1.5 --gamma 0.5 --sg triangle --network fb
-# feedforward: 700-128-128-135 paras:?
+# feedforward: 700-128-135 paras: 110.8K
 python SHD-SSC/main.py --neuron tclif --task SSC --beta1 0. --beta2 0. --threshold 1.5 --gamma 0.5 --sg triangle --network ff
 ```
