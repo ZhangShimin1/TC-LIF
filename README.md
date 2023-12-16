@@ -10,6 +10,6 @@ To view our paper, please refer: [TC-LIF](https://arxiv.org/abs/2308.13250)
 
 ## Results
 | network | S-MNIST | PS-MNIST | GSC | SHD | SSC |
-|-----|-----|-----|-----|-----|-----|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | recurrent | 99.20 | 95.36 | 94.42 | 88.91 | 61.09 |
 | feedforward | 97.35 | 83.98 | 90.57 | 83.08 | 63.46 |
