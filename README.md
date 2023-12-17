@@ -34,7 +34,7 @@ python MNIST/mn_train.py --neuron tclif --beta1 1.5 --beta2 -0.5 --task SMNIST -
 ### PS-MNIST
 ```
 # recurrent: 64-256-256-10 paras: 155.1K
-python MNIST/mn_train.py --neuron tclif --beta1 -1.4 --beta2 1.4 --task PSMNIST --threshold 1.8 --gamma 1.0 --sg triangle --network fb --ind 1
+python MNIST/mn_train.py --neuron tclif --beta1 -1.4 --beta2 1.4 --task PSMNIST --threshold 1.8 --gamma 0.5 --sg triangle --network fb --ind 1
 # feedforward: 64-256-256-10 paras: 63.6K
 python MNIST/mn_train.py --neuron tclif --beta1 0. --beta2 0. --task PSMNIST --threshold 1.5 --gamma 0.7 --sg triangle --network ff --ind 1
 ```
