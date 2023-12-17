@@ -29,7 +29,7 @@ Werkzeug                2.0.3
 # recurrent: 64-256-256-10 paras: 155.1K
 python MNIST/mn_train.py --neuron tclif --beta1 1.5 --beta2 -0.5 --task SMNIST --threshold 1.0 --gamma 0.5 --sg triangle --network fb --ind 1
 # feedforward: 64-256-256-10 paras: 63.6K
-python MNIST/mn_train.py --neuron tclif --beta1 1.5 --beta2 -0.5 --task SMNIST --threshold 1.0 --gamma 0.5 --sg triangle --network ff --ind 1
+python MNIST/mn_train.py --neuron tclif --beta1 0. --beta2 0. --task SMNIST --threshold 1.0 --gamma 0.5 --sg triangle --network ff --ind 1
 ```
 ### PS-MNIST
 ```
@@ -43,7 +43,7 @@ python MNIST/mn_train.py --neuron tclif --beta1 0. --beta2 0. --task PSMNIST --t
 # recurrent: 40-300-300-12 paras: 196.5K
 python GSC/gg12_train.py --neuron tclif --beta1 1.4 --beta2 1.4 --threshold 1.25 --gamma 0.7 --sg triangle --network fb --version v2 --drop 0.3
 # feedforward: 40-300-300-12 paras: 106.2K
-python GSC/gg12_train.py --neuron tclif --beta1 0. --beta2 0. --threshold 1.2 --gamma 0.6 --sg triangle --network ff --version v2 --drop 0.3
+python GSC/gg12_train.py --neuron tclif --beta1 1.4 --beta2 1.4 --threshold 1.2 --gamma 0.6 --sg triangle --network ff --version v2 --drop 0.3
 ```
 ### SHD
 ```
