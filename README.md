@@ -41,9 +41,9 @@ python MNIST/mn_train.py --neuron tclif --beta1 0. --beta2 0. --task PSMNIST --t
 ### GSC
 ```
 # recurrent: 40-300-300-12 paras: 196.5K
-python GSC/gg12_train.py --neuron tclif --beta1 1.4 --beta2 1.4 --threshold 1.25 --gamma 0.7 --sg triangle --network fb --version v2 --drop 0.3
+python GSC/gg12_train.py --neuron tclif --beta_init1 1.4 --beta_init2 1.4 --threshold 1.25 --gamma 0.7 --sg triangle --network fb --version v2 --drop 0.3
 # feedforward: 40-300-300-12 paras: 106.2K
-python GSC/gg12_train.py --neuron tclif --beta1 1.4 --beta2 1.4 --threshold 1.2 --gamma 0.6 --sg triangle --network ff --version v2 --drop 0.3
+python GSC/gg12_train.py --neuron tclif --beta_init1 1.4 --beta_init2 1.4 --threshold 1.2 --gamma 0.6 --sg triangle --network ff --version v2 --drop 0.3
 ```
 ### SHD
 ```
