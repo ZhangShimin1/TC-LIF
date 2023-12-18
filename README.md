@@ -21,6 +21,7 @@ urllib3                 1.26.12
 spikingjelly            0.0.0.0.13
 librosa                 0.7.1
 Werkzeug                2.0.3
+h5py                    3.10.0
 ```
 
 ## Reproduce
